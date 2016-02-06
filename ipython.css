@@ -1,0 +1,61 @@
+<style>
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700,800,400italic&subset=latin-ext,latin);
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700,800,400italic&subset=latin-ext,latin);
+
+.filename {
+    font-family: Titillium Web;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+}
+
+b {
+    color: #cc0000;
+}
+
+em {
+    color:#0000cc;
+}
+
+ul {
+	list-style-type: square !important;
+}
+
+.rendered_html ul li {
+	font-size: 8px;
+}
+
+li span {
+	font-size: 14px;
+}
+
+/* tekst w markdown */
+.rendered_html {
+    font-family: Titillium Web, serif;
+    }
+
+.rendered_html p {
+    font-size: 16px;
+    text-align: justify;
+    text-decoration: none;
+    }
+
+.rendered_html :link {
+    text-decoration: none;
+    }
+
+.rendered_html :visited {
+    text-decoration: none;
+    }
+    
+/* tekst w code cell */
+.code_cell {
+    font-family: Anonymous Pro, monospace;
+    font-size: 14px;
+    }
+
+code, pre, .CodeMirror {
+    font-family: Anonymous Pro, monospace;
+    font-size: 14px;
+}
+
+</style>
